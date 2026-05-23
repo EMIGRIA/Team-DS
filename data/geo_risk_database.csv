@@ -1,0 +1,7 @@
+country,region,risk_level,geo_risk_score,notes
+South Korea,East Asia,Low,1,Jalur resmi (G to G) sangat ketat dan terlindungi.
+Japan,East Asia,Low,1,"Program SSW/Magang resmi, hukum ketat."
+Taiwan,East Asia,Medium,2,"Sering ada isu potongan agen tidak resmi, namun relatif aman."
+Malaysia,Southeast Asia,High,3,"Banyak jalur tikus/ilegal, rawan eksploitasi."
+Saudi Arabia,Middle East,High,3,"Sistem Kafala, rawan penahanan paspor."
+Syria,Middle East,Critical,4,"Negara konflik, moratorium total BP2MI."
