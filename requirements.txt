@@ -10,3 +10,6 @@ category_encoders==2.6.1
 joblib==1.2.0
 ipython==8.12.0
 pycaret==3.0.4
+beautifulsoup4
+requests
+streamlit
