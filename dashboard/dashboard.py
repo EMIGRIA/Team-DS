@@ -105,7 +105,7 @@ elif menu == "📊 Insight & Visualisasi":
         if 'country' in df.columns and 'fraudulent' in df.columns:
             import matplotlib.pyplot as plt
             fig1, ax1 = plt.subplots(figsize=(10, 4))
-            sns.barplot(data=df, x='country', y='fraudulent', ci=None, palette='Oranges_r', order=LIST_NEGARA_ASIA, ax=ax1)
+            sns.barplot(data=df, x='country', y='fraudulent', errorbar=None, palette='Oranges_r', order=LIST_NEGARA_ASIA, ax=ax1)
             ax1.set_ylabel("Rasio Penipuan (%)")
             ax1.set_xlabel("Negara Tujuan")
             st.pyplot(fig1)
