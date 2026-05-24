@@ -42,7 +42,7 @@ LIST_NEGARA_ASIA = ["Indonesia", "Taiwan", "Jepang", "Korea Selatan", "Vietnam",
 # SIDEBAR NAVIGASI
 # ==========================================
 with st.sidebar:
-    st.title("Emigria AI")
+    st.title("Emigria")
     st.markdown("---")
     menu = st.sidebar.radio("Pilih Menu:", [
         "🏠 Ringkasan Eksekutif", 
